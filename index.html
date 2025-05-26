@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Currency Converter</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <h1>Currency Converter</h1>
+    <label for="amount">Amount: </label>
+    <input type="text" id="amount" placeholder="Enter amount" /> <br />
+    <!-- ------------------------------------------------------first currency---------------------------------------------------------- -->
+    <div class="firstCurrency">
+      <label for="firstCurrency">From: </label>
+      <select name="firstCurrency" id="firstCurrency">
+        <option value="USD">US Dollar (USD)</option>
+        <option value="SGD">Singapore Dollar (SGD)</option>
+        <option value="MYR">Ringgit Malaysia (MYR)</option>
+        <option value="EUR">Euro Dollar (EUR)</option>
+        <option value="AUD">Australian Dollar (AUD)</option>
+      </select>
+    </div>
+    <!-- ------------------------------------------------------second currency----------------------------------------------------------- -->
+    <div class="secondCurrency">
+      <label for="secondCurrency">To: </label>
+      <select name="firstCurrency" id="firstCurrency">
+        <option value="USD">US Dollar (USD)</option>
+        <option value="SGD">Singapore Dollar (SGD)</option>
+        <option value="MYR">Ringgit Malaysia (MYR)</option>
+        <option value="EUR">Euro Dollar (EUR)</option>
+        <option value="AUD">Australian Dollar (AUD)</option>
+      </select>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
