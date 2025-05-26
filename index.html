@@ -12,9 +12,9 @@
     <label for="amount">Amount: </label>
     <input type="text" id="amount" placeholder="Enter amount" /> <br />
     <!-- ------------------------------------------------------first currency---------------------------------------------------------- -->
-    <div class="firstCurrency">
-      <label for="firstCurrency">From: </label>
-      <select name="firstCurrency" id="firstCurrency">
+    <div class="from-currency">
+      <label for="from-currency">From: </label>
+      <select name="from-currency" id="from-currency">
         <option value="USD">US Dollar (USD)</option>
         <option value="SGD">Singapore Dollar (SGD)</option>
         <option value="MYR">Ringgit Malaysia (MYR)</option>
@@ -23,9 +23,9 @@
       </select>
     </div>
     <!-- ------------------------------------------------------second currency----------------------------------------------------------- -->
-    <div class="secondCurrency">
-      <label for="secondCurrency">To: </label>
-      <select name="firstCurrency" id="firstCurrency">
+    <div class="to-currency">
+      <label for="to-currency">To: </label>
+      <select name="to-currency" id="to-currency">
         <option value="USD">US Dollar (USD)</option>
         <option value="SGD">Singapore Dollar (SGD)</option>
         <option value="MYR">Ringgit Malaysia (MYR)</option>
@@ -33,7 +33,9 @@
         <option value="AUD">Australian Dollar (AUD)</option>
       </select>
     </div>
-
+    <!-- ----------------------------------------------------------submit button--------------------------------------------------------------- -->
+    <button id="convert-currency" onclick="convertCurrency()">Convert</button>
+    <div id="result"></div>
     <script src="script.js"></script>
   </body>
 </html>
